@@ -64,18 +64,24 @@ cd coffee-shop-management-system</code></pre>
 <pre>
 coffee-shop-management-system/
 │
-├── src/                   # Source code files
-│   ├── CoffeeShop.java    # Main class for managing the coffee shop
-│   ├── Item.java          # Class for inventory items
-│   ├── Sweets.java        # Class for sweet items
-│   ├── Coffee.java        # Class for coffee items
-│   ├── Order.java         # Class for processing customer orders
-│   ├── GUI.java           # GUI implementation
-│   └── Utils.java         # Utility functions for file handling and validations
+├── src/                                # Source code files
+│   ├── CoffeeShopGUI.java              # GUI implementation
+│   ├── CoffeeShopManagementSystem.java # Main management system logic
+│   ├── Item.java                       # Class for inventory items
+│   ├── Coffee.java                     # Class for coffee items
+│   ├── Sweets.java                     # Class for sweets items
+│   ├── CoffeeShop.java                 # Core class representing the coffee shop
+│   ├── Order.java                      # Class for processing customer orders
+│   ├── MainFrame.java                  # Main frame for GUI
+│   ├── MyFrame.java                    # Custom frame for GUI components
+│   ├── NegativePriceEx.java            # Custom exception for handling negative prices
 │
-├── data/                  # Folder for file-based data (e.g., inventory, orders)
-├── README.md              # Project documentation             
+├── images/                             # Folder for graphical assets
+│   ├── coffee.png                      # Coffee icon used in the GUI
+│
+├── README.md                           # Project documentation
 </pre>
+
 
 <h2>Requirements</h2>
 <ul>
