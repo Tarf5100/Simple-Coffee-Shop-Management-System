@@ -89,11 +89,3 @@ coffee-shop-management-system/
     <li><strong>IDE</strong>: IntelliJ IDEA, Eclipse, or any other Java IDE (optional for development)</li>
     <li><strong>Git</strong> (optional for version control)</li>
 </ul>
-
-<h2>Future Enhancements</h2>
-<ul>
-    <li>Add support for multiple users with authentication.</li>
-    <li>Expand menu customization features.</li>
-    <li>Enhance file management with database integration.</li>
-</ul>
-
